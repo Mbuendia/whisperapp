@@ -1,3 +1,19 @@
 page-home {
+ #logout{
+     border-radius: 50% !important;
+     top: -3.5em;
+     width: 3em;
+     height: 3em;
+     &:hover {
+        background-color:red;
+        width: 3.1em;
+        height: 3.1em;
+    }
 
+ }
+ #sendaudio{
+      width: 2em;
+     height: 2em;
+ }
+ 
 }

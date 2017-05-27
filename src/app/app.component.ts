@@ -15,11 +15,12 @@ export class MyApp {
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     this.zone = new NgZone({});
     const config = {
-      apiKey: "AIzaSyALKfevapBOYK202f6k5mPPfMrT1MHDv5A",
-      authDomain: "bill-tracker-e5746.firebaseapp.com",
-      databaseURL: "https://bill-tracker-e5746.firebaseio.com",
-      storageBucket: "bill-tracker-e5746.appspot.com",
-      messagingSenderId: "508248799540"
+        apiKey: "AIzaSyDCExjjjMwWGobU_ur7Mo_7yIOYlHdsNEU",
+        authDomain: "whisper-38c40.firebaseapp.com",
+        databaseURL: "https://whisper-38c40.firebaseio.com",
+        projectId: "whisper-38c40",
+        storageBucket: "whisper-38c40.appspot.com",
+        messagingSenderId: "1012692753453"
     };
     firebase.initializeApp(config);
 

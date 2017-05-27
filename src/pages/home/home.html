@@ -1,15 +1,22 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
+<ion-header >
+  <ion-navbar color="primary" >
+    <ion-title >
+      Home
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+
+  <ion-fab top right>
+  <button id="logout" ion-button color="positive" block (click)="logMeOut()"><ion-icon name="md-log-out"></ion-icon></button>
+</ion-fab>
+
+
   We'll be testing the log out button.
 
-  <button ion-button color="positive" block (click)="logMeOut()">
-    Log Me Out Please
-  </button>
+
+ <ion-fab bottom right>
+  <button id="sendAudio" ion-button color="secondary" block (click)="recordAudio()"><ion-icon name="md-microphone"></ion-icon></button>
+</ion-fab>
 </ion-content>
